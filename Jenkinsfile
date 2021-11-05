@@ -11,7 +11,7 @@ parameters {
 stages {
   stage('fetch_latest_code') {
     steps {
-      git url: 'https://seurepo.git&#39;, branch: 'main'
+      git url: 'https://github.com/fernandoravagnani/vorx-iac.git';, branch: 'main'
     }
   }
 
